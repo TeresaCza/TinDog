@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+p {
+    color: #8f8f8f;
+}
+
 /*Containers*/
 .container-fluid {
     padding: 7% 15%;
@@ -99,10 +103,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5rem;    
 }
 
-#features p {
-    color: #8f8f8f;
-}
-
 /*Testimonials section*/
 #testimonials {
     background-color: #ef8172;       
@@ -139,8 +139,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 2%;
 }
 
-.price-subheading {
-    color: #8f8f8f;
+.price-subheading {    
     padding: 3%;
 }
 
@@ -155,9 +154,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.8%;
 }
 
-.copyright {
-    color: #8f8f8f;
+.copyright {    
     font-size: 0.8rem;
+    padding-top: 5px;
 }
 
 @media (max-width: 1028px) {
